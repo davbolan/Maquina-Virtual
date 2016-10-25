@@ -1,0 +1,25 @@
+push 1
+bt 3
+halt
+push 0
+bt 200
+push 0
+bf 8
+halt
+push 2
+bf 300
+push 1
+rbt 2
+halt
+push 0
+rbt 400
+push 0
+rbf 2
+halt
+push 2
+rbf 500
+jump 23
+halt
+rjump 2
+rjump -1
+halt
